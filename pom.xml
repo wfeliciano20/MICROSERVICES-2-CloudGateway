@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.williamfeliciano</groupId>
-    <artifactId>CloudGateway2</artifactId>
+    <artifactId>CloudGateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>CloudGateway2</name>
-    <description>CloudGateway2</description>
+    <name>CloudGateway</name>
+    <description>CloudGateway</description>
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2021.0.6</spring-cloud.version>
