@@ -1,4 +1,4 @@
-package com.williamfeliciano.cloudgateway2;
+package com.williamfeliciano.cloudgateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

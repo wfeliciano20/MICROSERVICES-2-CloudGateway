@@ -1,4 +1,4 @@
-package com.williamfeliciano.cloudgateway2;
+package com.williamfeliciano.cloudgateway;
 
 import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
 import org.springframework.boot.SpringApplication;
