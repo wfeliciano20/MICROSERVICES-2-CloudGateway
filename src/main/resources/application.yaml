@@ -17,7 +17,7 @@ spring:
                 fallbackuri: forward:/orderServiceFallBack
             - name: RequestRateLimiter
               args:
-                redis-rate-limiter.repleanishRate: 1
+                redis-rate-limiter.replenishRate: 1
                 redis-rate-limiter.burstCapacity: 1
         - id: PRODUCT-SERVICE
           uri: lb://PRODUCT-SERVICE
@@ -30,7 +30,7 @@ spring:
                 fallbackuri: forward:/productServiceFallBack
             - name: RequestRateLimiter
               args:
-                redis-rate-limiter.repleanishRate: 1
+                redis-rate-limiter.replenishRate: 1
                 redis-rate-limiter.burstCapacity: 1
         - id: PAYMENT-SERVICE
           uri: lb://PAYMENT-SERVICE
@@ -43,7 +43,7 @@ spring:
                 fallbackuri: forward:/paymentServiceFallBack
             - name: RequestRateLimiter
               args:
-                redis-rate-limiter.repleanishRate: 1
+                redis-rate-limiter.replenishRate: 1
                 redis-rate-limiter.burstCapacity: 1
 
 okta:
