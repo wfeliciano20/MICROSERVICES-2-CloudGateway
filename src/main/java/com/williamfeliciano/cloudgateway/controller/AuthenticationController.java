@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/authenticate")
 public class AuthenticationController {
 
-    @GetMapping("/authenticate")
+    @GetMapping("/login")
     public ResponseEntity<AuthenticationResponse> login(
             @AuthenticationPrincipal OidcUser oidcUser,
             Model model,
